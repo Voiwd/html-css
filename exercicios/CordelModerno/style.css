@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Patua+One&family=Satisfy&display=swap');
+
+body {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 180px;
+    color: white;
+    text-align: center;
+}
+h1 {
+    margin: 0px;
+    padding: 30px 0px;
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31pt;
+}
+
+div {
+    background-color: white;
+    height: 400px;
+}
+p {
+    max-width: 300px;
+    font-family: "Satisfy", cursive;
+    font-size: 20pt;
+    padding: 50px 0px 0px 8%;
+    margin: 0px;
+}
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+aside > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+main {
+   background-image: url(imagens/background001.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+#segundo {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+}
+.black {
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    max-width: 300px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 25px 10%;
+}
+.black > p {
+    padding: 0px;
+}
