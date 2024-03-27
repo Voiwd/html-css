@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    background-color: aqua;
 }
 header {
     background-color: black;
@@ -21,7 +22,9 @@ h1 {
 
 div {
     background-color: white;
-    height: 400px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    padding-bottom: 30px;
 }
 p {
     max-width: 300px;
@@ -40,9 +43,11 @@ aside > a {
     font-weight: bold;
 }
 main {
-   background-image: url(imagens/background001.jpg);
-   background-size: cover;
-   background-attachment: fixed;
+    padding-top: 30px;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
 }
 #segundo {
     background-image: url(imagens/background002.jpg);
@@ -53,10 +58,17 @@ main {
     color: white;
     max-width: 300px;
     height: fit-content;
-    padding: 10px;
+    padding: 20px;
     border-radius: 2px;
-    margin: 25px 10%;
+    margin: 0px 40px 40px 40px;
 }
 .black > p {
     padding: 0px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: 200 normal 10pt Arial, Helvetica, sans-serif;
+    padding: 15px 0px;
 }
